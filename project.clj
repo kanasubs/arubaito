@@ -1,6 +1,6 @@
 (defproject arubaito "0.1.0"
 
-  :description "A nREPL client shell for your side jobs"
+  :description "A minimal Clojure nREPL client shell for your side jobs"
 
   :url "https://github.com/kanasubs/arubaito"
 
@@ -12,6 +12,7 @@
 
   :main arubaito.core
 
-  :dependencies [[org.clojure/clojure "1.5.1"] [org.clojure/tools.nrepl "0.2.10"]]
+  :dependencies [[org.clojure/clojure "1.5.1"]
+                 [org.clojure/tools.nrepl "0.2.10"]]
 
   :repl-options {:init-ns arubaito.core})
